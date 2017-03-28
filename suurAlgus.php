@@ -32,24 +32,12 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
 $tekstMassiiv = explode("\n", $text);
-//echo "<p>${tekstMassiiv[0]}</p>";
-
-$temp = $tekstMassiiv[0];
-$esimeneTaht = $temp[0];
-//echo "<p><span>$tekstMassiiv[0][0];</span>";
-/*
-echo "$esimeneTaht";
-	$paragraaf = substr($tekstMassiiv[0], 1);
-	echo "$paragraaf</p>";
-*/
 
 for ($i = 0; $i < count($tekstMassiiv); $i = $i + 1) {
 	$temp = $tekstMassiiv[$i];
 	$esimeneTaht = $temp[0];
 	$paragraaf = substr($tekstMassiiv[$i], 1);
-	//echo substr()
 	echo "<p><span>$esimeneTaht</span>";
-	
 	echo "$paragraaf</p>";
 }
 
