@@ -8,8 +8,8 @@
 <body>
 
 <?php
-	$tekst = "Originaalne tekst"
-	echo $tekst <br>;
+	$tekst = "Originaalne tekst";
+	echo "$tekst <br/>\n";
 	$tekstiMassiiv = str_split($tekst);
 	for ($i = count($tekstiMassiiv); $i > 0; $i = $i - 1) {
 		echo $tekstiMassiiv[$i-1];
