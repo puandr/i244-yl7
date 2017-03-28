@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>i244, ülesanne 7</title>
+	<title>i244, ülesanne 7-1</title>
 </head>
 
 <body>
